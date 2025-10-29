@@ -1,0 +1,130 @@
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.tarefa-item {
+    transition: all 0.3s ease;
+}
+
+.concluir-tarefa:checked + label {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.list-group-item {
+    border: none;
+    padding: 12px 16px;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.list-group-item.text-danger:hover {
+    background-color: #fff5f5;
+}
+
+.anotacao-item {
+    transition: all 0.3s ease;
+}
+
+.btn-group .btn-sm {
+    padding: 0.25rem 0.5rem;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    font-weight: 600;
+    border-bottom: 3px solid #0d6efd;
+}
+
+.tarefa-concluida {
+    background-color: #f8f9fa;
+    border-left: 4px solid #198754;
+}
+
+.texto-concluido {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+
+.badge-urgencia-alta {
+    background-color: #dc3545;
+}
+
+.badge-urgencia-media {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.badge-urgencia-baixa {
+    background-color: #0d6efd;
+}
+
+.alert {
+    border-radius: 8px;
+    border-left: 4px solid;
+}
+
+.alert-danger {
+    border-left-color: #dc3545;
+}
+
+.alert-success {
+    border-left-color: #198754;
+}
+
+.is-invalid-date {
+    border-color: #dc3545 !important;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn {
+    transition: all 0.3s ease;
+}
+
+/* Estilos para botões em estado de loading */
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Feedback visual para o modal */
+.modal-footer .btn {
+    transition: all 0.3s ease;
+}
+
+/* Destacar campos obrigatórios */
+.form-label:after {
+    content: " *";
+    color: #dc3545;
+}
